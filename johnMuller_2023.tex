@@ -2,8 +2,9 @@
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 %
-\documentclass[
-]{article}
+%\documentclass[12pt]{article}
+\documentclass[10pt, letterpaper]{article} % 
+%\usepackage{moderncv}
 \usepackage{amsmath,amssymb}
 \usepackage{hyperref}
 \usepackage{lmodern}
@@ -51,37 +52,42 @@
 
 \author{}
 \date{}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+%\usepackage{ebgaramond}
+%\usepackage{egeorgia}
 \usepackage{tikz}
 \usepackage{xcolor}
 \usepackage{lipsum}
 \usepackage{titlesec}
 \usepackage{geometry}
 \usepackage{graphicx}
+\usepackage{color}
+\usepackage{multicol}
 \geometry{letterpaper, portrait, margin=1in}
+%\usepackage[svgnames]{xcolor}
+%\usepackage{framed}
+%\definecolor{shadecolor}{named}{LightGray}
 \titlespacing\section{0pt}{2pt plus 4pt minus 2pt}{0pt plus 0pt minus 2pt}
 \titlespacing\subsection{0pt}{0pt plus 0pt minus 0pt}{0pt plus 0pt minus 2pt}
 \begin{document}
-%\pagecolor{CornflowerBlue}
 
-{\LARGE \underline{ \textbf {John Muller}}}
+
+{\LARGE { \textbf {John Muller}}}
 \vspace{0.1in}
 \hfill\break
 jmuller.ics88@gtalumni.org 
- \textcolor{blue} {$\diamondsuit$}  (617) 669-2204  \textcolor{blue}{$\diamondsuit$}
- Charlotte, NC USA 28277 \hfill 
-\smash{\includegraphics[width=2.5cm]{John.png}} 
+ \textcolor{red} {$\diamondsuit$}  (617) 669-2204  \textcolor{red}{$\diamondsuit$}
+ Charlotte, NC USA \hfill 
+\smash{\includegraphics[width=2.5cm]{sketch.png}} 
  \\
 https://www.linkedin.com/in/quantjohn/ 
-\textcolor{blue}{$\diamondsuit$} http://github.com/jhmuller/jhmuller.github.io 
+\textcolor{red}{$\diamondsuit$} http://github.com/jhmuller/jhmuller.github.io 
 \\
 
 
 \vspace{-18pt}
-
-\begin{center}
-\rule{0.5\textwidth}{.4pt}
-\end{center}
-
 \begin{center}
 \rule{0.5\textwidth}{.4pt}
 \end{center}
@@ -91,47 +97,58 @@ https://www.linkedin.com/in/quantjohn/
 \begin{itemize}
 \item[$\triangleright$]  I am a Computer Scientist(Ph.D.), Data Scientist, and Finance Quant with over 15 years of experience solving analytic problems in a variety of industries.
 \item[$\triangleright$]  I love understanding problems from the big picture to the details and working with clients and stakeholders to define and then execute on solutions that add value. 
-%{\textbf {Technical Skills}}
-\item[$\square$] Technical skills
+ \end{itemize}
+{\textbf {Technical Skills}}
+\vspace{-7pt}
+\begin{multicols}{2}
   \begin{itemize}
 	\tightlist
 	\item Python and it's ecosystem: notebooks, pandas, numpy, et cetera 
 	\item scikit learn, keras/tensoflow,and pytorch.
-	\item Skill and experience with ML algorithms ranging from regression to ensemble methods to neural networks.
- \end{itemize}
+	\item SQL, Git, Airflow
+	\item Machine Learning algorithms ranging from regression to ensemble methods to neural networks.
+	\item Algorithms and data structures
+	\item Linear Algebra, Probability and Statistics
 \end{itemize}
- 
+\end{multicols}
 % \line(1,0){4in} 
-\vspace{6pt}
-\hypertarget{professional-experience}{\section{\texorpdfstring{\underline{\textbf{Experience}}}{Professional Experience}}\label{professional-experience}}
-\vspace{-16pt}
-{\subsubsection{} \label{BofA}}
-{\textbf {Bank of America \hfill  Python developer \hfill Nov. 2022 -- present}}
 
-\begin{itemize}
-\tightlist
-\item Developing Python and SQL tools to give the bank a more flexible process for loading and managing sensitive data.
-\end{itemize}
+%\colorbox[gray]{0.8}{\parbox{.3\textwidth}{
+\vspace{-5pt}
+\hypertarget{professional-experience}{\section{\texorpdfstring{
+{ \textbf{ {Experience}}}}{Professional Experience}}\label{professional-experience}}
 
-\vspace{-18pt}
+%}}
+
+\vspace{-15pt}
 {\subsubsection{} \label{enterthedata}}
-\textcolor{blue} {\textbf {Enter The Data \hfill  Data Scientist \hfill 2012 - present}}\\
+\textbf{\textcolor{blue}  {Strategic and Technical Lead}} \hfill
+%\textcolor{red}{$\diamondsuit$} \hfill
+ \textbf{Enter The Data} \hfill  
+ %\textcolor{red}{$\diamondsuit$} 
+ \hfill 2018 - present\\
 \emph {My own brand for Data Science and Computer Science consulting}
 
 \begin{itemize}
 \tightlist
+\item Worked with clients to understand their business needs and translate them into analytic/data science projects.
 %\item  Time series exploratory analysis and prediction.
-\item Estimation and analysis of customer retention across markets to promote winning strategies.
-\item Estimating the effects of weather on sales to optimize inventory around extreme events.
-\item K-means clustering of survey data to reveal natural groupings of the population.
-\item Estimating the value of marketing campaigns to optimize marketing spend.
+\item To identify strategies that retain customers, estimated and analyzed of customer retention across markets.
+\item To help optimize inventory and sales around extreme events,
+estimated the effects of weather on sales.
+\item Worked with an HR company to improve their applicant matching by clustering employee types.
+\item To assess and optimize marketing spend, estimated the value of marketing campaigns.
 \end{itemize}
 
 \vspace{-18pt}
 \hypertarget{lowes}
 {\subsubsection{} \label{lowes}}
 
-\textcolor{blue}{\textbf {Lowe's \hfill Data Scientist \hfill Nov 2021 - Apr 2022}}\\
+{\textbf {\textcolor{blue}{Data Scientist}} \hfill 
+%\textcolor{red}{$\diamondsuit$} \hfill
+\textbf{Lowe's} \hfill  
+%\textcolor{red}{$\diamondsuit$} \hfill 
+Nov 2021 - Apr 2022\\
 \vspace{-10pt}
 \begin{itemize}
 \tightlist
@@ -139,31 +156,21 @@ https://www.linkedin.com/in/quantjohn/
   Coded a rules-based method for recommendations which was put into 
    production.
    
- \item  Built a graph ML
+ \item  Proposed and built and innovative graph ML
   method that can use product attributes as well as web traffic data.  This was important because
   it addressed the issue of new products which have no 
     history of view data. 
 \end{itemize}
 
 
-
-\vspace{-20pt}
-\hypertarget{pnc}{\subsubsection{}\label{pnc}}
-\textbf  {PNC Bank \hfill Python Developer \& Code Reviewer \hfill Oct 2019 - Oct 2021}
-
-\vspace{-2pt}
-
-\begin{itemize}
-\tightlist
-\item Helped avoid Regulatory Penalties by reviewing over 24 sets of Python and SQL code to ensure that the code meets the requirements and that the results are reproducible.
-\item Developed a Pandas dataframe profiling tool
-that produced an extensive summary of a dataframe  saving time for all reviewers and money for the firm.
-\end{itemize}
-
 \vspace{-16pt}
 %\line(1,0){.5in} 
 \hypertarget{acadian}{\subsubsection{}\label{acadian}}
-\textbf {Acadian Asset Management \hfill Vice President \& Analyst \hfill  Feb 2013 -  Mar 2018}
+\textbf {\textcolor{blue}{Analytic Lead}} \hfill 
+%\textcolor{red}{$\diamondsuit$} \hfill
+ \textbf{Acadian Asset Management} \hfill 
+%\textcolor{red}{$\diamondsuit$} \hfill 
+Feb 2013 -  Mar 2018
 
 \begin{itemize}
 \tightlist
@@ -184,7 +191,11 @@ a better understanding of it's effects on returns. The work resulted in re-estim
 %\line(1,0){.5in} 
 \hypertarget{ssa}{%
 \subsubsection{}\label{ssa}}
-\textbf {State Street Associates \hfill Vice President, Analyst and Visualization lead \hfill Aug 2007 - Feb 2012 }
+ {\textbf {\textcolor{blue} {Analytic \& Visualization Lead}} \hfill
+% \textcolor{red}{$\diamondsuit$} \hfill
+ \textbf{State Street Associates} \hfill  
+%  \textcolor{red}{$\diamondsuit$} \hfill 
+  Aug 2007 - Feb 2012 
 
 \vspace{-4pt}
 {\hspace{0.1in} \footnotesize \emph{State Street Associates is the research arm of State Street Corporation's trading business.}}
@@ -206,7 +217,11 @@ a better understanding of it's effects on returns. The work resulted in re-estim
 %\line(1,0){.5in} 
 \vspace{-20pt}
 \hypertarget{bofa}{\subsubsection{}\label{bofa}}
-\textbf {Bank of America \hfill Senior Vice President \hfill Oct 2001 -  Aug 2007}
+\textbf {\textcolor{blue}{Analytic Lead}} \hfill  
+% \textcolor{red}{$\diamondsuit$} \hfill 
+ \textbf{Bank of America} \hfill 
+% \textcolor{red}{$\diamondsuit$} \hfill 
+Oct 2001 -  Aug 2007
 
   \begin{itemize}
   \tightlist
@@ -220,43 +235,49 @@ a better understanding of it's effects on returns. The work resulted in re-estim
 
 
 \hypertarget{education-and-activities}{
-\section{\texorpdfstring{\underline{\textbf{Education and
-Activities}}}{Education and Activities}}\label{education-and-activities}}
+\section{\texorpdfstring{{\textbf{Education}}}{Education}}\label{education-and-activities}}
 
 \hypertarget{university-education}{%
 {\large \textbf{University Education}}\label{university-education}}
 
-\textbf{Degree}: Doctor of Philosophy,  Ph.D.\\
-\textbf{Major}: Information and Computer Science \\
-\textbf{Institution}: Georgia Institute of Technology\\
-\vspace{0.1in}
+\textcolor{blue}{Ph.D.} \hfill
+% \hfill \textcolor{red}{$\diamondsuit$}  
+\hfill Information and Computer Science \hfill 
+% \textcolor{red}{$\diamondsuit$}  
+\hfill  Georgia Institute of Technology 
+ 
+\vspace{0.05in}
 
-\textbf{Degree}: Bachelor of Science, B.S. \\
-\textbf{Major}: Computer Science \\
-\textbf{Institution}: University of Georgia
+\textcolor{blue}{B.S.} 
+%\hfill \textcolor{red}{$\diamondsuit$}  
+\hfill
+Computer Science 
+%\hfill \textcolor{red}{$\diamondsuit$}  
+\hfill  University of Georgia 
+
 
 \hypertarget{continuing-education-and-related-activities}{%
-{\large \textbf{Continuing Education and related
-activities}}
+{\large \textbf{Continuing Education Certificates}}
 \label{continuing-education-and-related-activities}}
 
-\begin{itemize}
-\tightlist
-\item
-  Artificial Intelligence Professional Program, Stanford University
 
-  \begin{itemize}
-  \tightlist
-  \item
-    Machine Learning, XCS229, (2022)
-  \item
-    Machine Learning with Graphs, XCS224, (2022)
-  \item
-    Artificial Intelligence: Principals and Techniques, XCS221, (2021)
-  \end{itemize}
-\item
-  DeepLearning.ai courses including Neural Networks and Deep Learning
-  and Sequence Models (2018)
-\end{itemize}
+
+\textcolor{blue}{ Artificial Intelligence Professional Program}
+  \hfill
+% \textcolor{red}{$\diamondsuit$} 
+  \hfill  Stanford
+
+\textcolor{blue}{Managing Big Data}
+%  \hfill \textcolor{red}{$\diamondsuit$} 
+  \hfill  MIT
+  
+\textcolor{blue}{Quantitative Finance - Math Track}
+ % \hfill \textcolor{red}{$\diamondsuit$} 
+ \hfill  Carnegie Mellon
+  
+\textcolor{blue}{Quantitative Methods in Finance}
+%  \hfill \textcolor{red}{$\diamondsuit$} 
+\hfill  Stanford
+ 
 
 \end{document}

@@ -5,9 +5,7 @@
 \documentclass[
 ]{article}
 \usepackage{amsmath,amssymb}
-\usepackage{hyperref}
 \usepackage{lmodern}
-\usepackage{pagecolor,lipsum}% http://ctan.org/pkg/{pagecolor,lipsum}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
@@ -53,15 +51,14 @@
 \date{}
 
 \begin{document}
-\pagecolor{blue!50}
 {\LARGE \underline{John Muller}}
 \vspace{0.1in}
 \hfill\break
 \textbf{email}: jmuller.ics88@gtalumni.org \\
-\textbf{phone}:  (617) 669-2204\\
-\textbf{Address}: 17823 Meadow Bottom Rd., Charlotte, NC USA 28277\\
+\textbf{phone}:  (704) 593-6855\\
 \textbf{LinkedIn}: https://www.linkedin.com/in/quantjohn/\\
-\textbf{Github}: http://github.com/jhmuller/jhmuller.github.io \\
+\textbf{Address}: 17823 Meadow Bottom Rd., Charlotte, NC USA 28277\\
+\textbf{Github}: http://github.com/\textbf{\emph{jhmuller}} \\
 %\textbf{website}: www.enterthedata.com \\
 
 \hypertarget{summary}{%
@@ -72,56 +69,24 @@
 \item
   Computer Scientist, Data Scientist, and Finance Quant.
 \item
-    Extensive experience with Python ecosystem, machine learning frameworks and SQL.
- \item Experience with cloud platforms: GCP and AWS.
+  Extensive experience with
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Python ecosystem, machine learning frameworks, SQL and R.
+  \item
+    Algorithms, Data Structures, Data Science, and visualization.
+  \end{itemize}
 \item
-  Academic training in machine learning, big data and
+  Academic training in machine learning, big data methods and
   quantitative finance.
- \end{itemize}
- 
- { \large \bf Portfolio of Data Science Projects}
-
-   Please visit \hspace{0.2in} { \emph {https://github.com/jhmuller/jhmuller.github.io}  }
-
-
+\end{itemize}
 
 % \line(1,0){4in} 
 
 \hypertarget{professional-experience}{\section{\texorpdfstring{\underline{\textbf{Professional
 Experience}}}{Professional Experience}}\label{professional-experience}}
-
-\hypertarget{lowes}
-{\subsubsection{} \label{BofA}}
-
-\begin{flushleft}
-\textbf{Company} : Bank of America
-\end{flushleft}
-
-\begin{flushleft}
-\textbf{Role} : Python developer
-\end{flushleft}
-{\textbf{From}: Nov. 2022 \hspace{0.5in}  \textbf{To}: current
-\begin{itemize}
-\tightlist
-\item Writing Python code to help replace an ETL product.
-\end{itemize}
-
-\hypertarget{lowes}
-{\subsubsection{} \label{enterthedata}}
-
-\begin{flushleft}
-\textbf{Company} : Enter The Data
-\end{flushleft}
-
-\begin{flushleft}
-\textbf{Role} : Data Scientist and Computer Scientist
-\end{flushleft}
-{\textbf{From}: April 2022 \hspace{0.5in}  \textbf{To}: current
-\begin{itemize}
-\tightlist
-\item  Time series exploratory analysis.
-\item  Extracting and analyzing tables from a corpus of PDF files.
-\end{itemize}
 
 \hypertarget{lowes}
 {\subsubsection{} \label{lowes}}
@@ -137,16 +102,16 @@ Experience}}}{Professional Experience}}\label{professional-experience}}
 \begin{itemize}
 \tightlist
 \item
-  Part of a team building and deploying recommendation algorithms on GCP.
+  Part of a team building and deploying recommendation algorithms.
 \item
-  Put into production a rules-based method using counts derived from web logs.
- \item To address the \emph{cold start} problem, built a machine learning
-  method for generating recommendations that can use product attributes as well as web traffic data.
-
+  Built both a rules-based method from counts derived from web logs as
+  well as a graph ML model using PyTorch Geometric.
+\item
+  Built a tool to create an HTML document for manual comparison of any
+  number of competing recommendation methods.
 \item
   Proposed a system for \emph{offline back testing} of recommendation
-  algorithms. As an interim step built a tool for manual comparison
-  of recommendations.
+  algorithms.
 \end{itemize}
 
 
@@ -376,6 +341,25 @@ activities}}
 \item
   DeepLearning.ai courses including Neural Networks and Deep Learning
   and Sequence Models (2018)
+\item
+  Data Science: Data to Insights and Big Data, MIT professional
+  development online course (2017)
+\item
+  Statistical Learning and Data Mining III, Elements of Statistical
+  Learning authors Tibshirani \& Hastie (2011)
+\item
+  Co-founder and current co-organizer of Greater Boston useR Meetup
+  Group (2900+ Members) (2010)
+\item
+  Certificates in Quantitative Finance, Stanford (2005), Carnegie Mellon
+  (2006)\\
+  Courses Included: Finance, Statistics and Mathematics, Stochastic
+  Calculus, and Interest Rate Models.
 \end{itemize}
 
+Recent Data Science Projects
+\begin{itemize}
+\item clustering asset managers by shared holdings from SEC Edgar filings.
+\item forecasting the change in the monthly jobs number using a variety of covariates
+\item ranking college football teams.
 \end{document}
