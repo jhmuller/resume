@@ -1,0 +1,20 @@
+Ph.D. in Computer Science with extensive experience in analytics, modeling and quantitative finance
+looking for short term contract products while waiting to relocate.
+
+My main language now is Python (with Pandas, NumPy, ScyPi, ...).
+I have also used R extensively and I have coded in both C/C++ and Java but not in a few years.
+
+Also very proficient in SQL
+
+Analytics and Modeling experience includes
+* regression (OLS, regularized, tree based, ...)
+* classification (trees, logistic, SVM)
+* clustering (k-means plus many other variants)
+* time series analysis
+* visualization (Spotfire, Bokeh by Continuum, plus ggplot in R)
+
+Also vary familiar with all the less glamorous steps in an analytics project such as data gathering, data cleansing, dealing with missing data and outliers, writing up results, et cetera.
+
+Knowledge of other AI/Machine Learning methods such as Neural Nets, Deep Learning, tensor flow, NLP
+  so willing to work on projects involving these at a reduced rate.
+The same is true for Spark.
